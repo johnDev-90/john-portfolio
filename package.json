@@ -1,9 +1,10 @@
 {
-  "homepage":"https://johnDev-90.github.io/john-portfolio/",
+  
   "name": "john-martinez-frontend-developer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"https://www.johnmdev.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

@@ -7,6 +7,8 @@ import registroP from "../img/registroPacientes.webp";
 import loan from "../img/loan.webp";
 import netli from "../img/netli.png";
 import gutIcon from "../img/githubIcon.png";
+import vercelImg from '../img/vercel.png'
+import guitarLa from '../img/GuitarLa.png'
 import { Element } from "react-scroll";
 
 const Projects = () => {
@@ -16,6 +18,29 @@ const Projects = () => {
         <h2>My Projects</h2>
 
         <div className="card-container">
+
+        <div className="card">
+            <img className="projects-imagen" src={guitarLa} alt="Here goes the image" />
+            <div className="project-description">
+              <p>GuitarLA React, Strapi + PostgreSQL</p>
+             
+            </div>
+            <div className="btn-code">
+              <div className="btn-deploy">
+                <img src={vercelImg} alt="Here goes the image" />
+                <a href="https://guitar-la-react-three.vercel.app/" target="blank">Deploy</a>
+              </div>
+              <div className="btn-deploy">
+                <img src={gutIcon} alt="Here goes the image" />
+                <a
+                  href="https://github.com/johnDev-90/GuitarLAReact"
+                  target="blank"
+                >
+                  View code
+                </a>
+              </div>
+            </div>
+          </div>
 
         <div className="card">
             <img className="projects-imagen" src={registroP} alt="Here goes the image" />
@@ -122,7 +147,7 @@ const Projects = () => {
           <div className="card">
             <img className="projects-imagen" src={portf} alt="" />
             <div className="project-description">
-              <p>CRM + Vitejs and Jason Server</p>
+              <p>Portfolio React + Vitejs</p>
         
             </div>
             <div className="btn-code">
@@ -134,29 +159,6 @@ const Projects = () => {
                 <img src={gutIcon} alt="Imagen" />
                 <a
                   href="https://github.com/johnDev-90/CRM-RRD.git"
-                  target="blank"
-                >
-                  View code
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="card">
-            <img className="projects-imagen" src={loan} alt="Loan img" />
-            <div className="project-description">
-              <p>Created with ReactJS + ViteJS,</p>
-             
-            </div>
-            <div className="btn-code">
-              <div className="btn-deploy">
-                <img src={netli} alt="icone IMG" />
-                <a href="https://tubular-kleicha-a0630b.netlify.app/" target="blank">Deploy</a>
-              </div>
-              <div className="btn-deploy">
-                <img src={gutIcon} alt="Imagen" />
-                <a
-                  href="https://github.com/johnDev-90/LOANUOTATION.git"
                   target="blank"
                 >
                   View code
