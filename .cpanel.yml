@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/johnbbif/public_html/
+   - /bin/bash install-dependencies.sh
+    - /bin/rsync -av . $DEPLOYPATH
